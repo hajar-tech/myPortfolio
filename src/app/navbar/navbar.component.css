@@ -1,0 +1,11 @@
+.nav-link {
+    color: #333;  /* Couleur de texte par défaut */
+    text-decoration: none; /* Retirer la sous-ligne */
+    padding: 10px 15px;
+    transition: color 0.3s ease; /* Transition douce */
+  }
+  
+  /* Effet hover */
+  .nav-link:hover {
+    color: red; /* Changer la couleur du texte en rouge au survol */
+  }
