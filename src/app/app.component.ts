@@ -5,11 +5,12 @@ import { FooterComponent } from './footer/footer.component'; // Import the Foote
 import { HomeComponent } from './home/home.component'; // Import the HomeComponent
 import { ContactComponent } from './contact/contact.component'; // Import the ContactComponent
 import { AboutComponent } from './about/about.component'; // Import the AboutComponent
+import { SkilsComponent } from './skils/skils.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,NavbarComponent,FooterComponent,HomeComponent,ContactComponent,AboutComponent],
+  imports: [RouterOutlet,NavbarComponent,FooterComponent,HomeComponent,ContactComponent,AboutComponent,SkilsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
