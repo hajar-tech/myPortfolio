@@ -1,37 +1,38 @@
-import { Component } from '@angular/core';
+import { Component  } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-projects',
-  imports: [],
+  imports : [CommonModule],
+  standalone: true,
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.css'
 })
-
-
-
 export class ProjectsComponent {
   projects = [
-    {
-      title: 'E-commerce Website',
-      description: 'A full-stack shopping platform built with Angular and Spring Boot.',
-      image: 'images/avatar.png',
-      link: 'https://github.com/yourusername/ecommerce-app'
-    },
-    {
-      title: 'Task Manager',
-      description: 'Manage your daily tasks with this clean and simple productivity app.',
-      image: 'assets/projects/taskmanager.jpg',
-      link: 'https://github.com/yourusername/task-manager'
-    },
-    {
-      title: 'Fitness Tracker',
-      description: 'Track your workouts and progress in this modern fitness app.',
-      image: 'assets/projects/fitness.jpg',
-      link: 'https://github.com/yourusername/fitness-tracker'
-    },
-    // add more...
+  {  
+  name : 'pomodoro-timer',
+  imageUrl : "images/pomodoro.png",
+  githubUrl : "https://github.com/hajar-tech/application-task-manager.git",
+  },
+  {  
+    name : 'pomodoro-timer',
+    imageUrl : "images/meteo1.jpg",
+    githubUrl : "https://github.com/hajar-tech/application-task-manager.git",
+  },
+    {  
+      name : 'pomodoro-timer',
+      imageUrl : "images/Construction.jpg",
+      githubUrl : "https://github.com/hajar-tech/application-task-manager.git",
+      },
+      {  
+        name : 'pomodoro-timer',
+        imageUrl : "images/sportFlow.jpg",
+        githubUrl : "https://github.com/hajar-tech/application-task-manager.git",
+        },
+      
   ];
-
-  filteredProjects = this.projects; // you can add filtering logic if needed
 }
+
+
 
