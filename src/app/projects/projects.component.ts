@@ -16,19 +16,19 @@ export class ProjectsComponent {
   githubUrl : "https://github.com/hajar-tech/application-task-manager.git",
   },
   {  
-    name : 'pomodoro-timer',
+    name : 'meteo-app',
     imageUrl : "images/meteo1.jpg",
-    githubUrl : "https://github.com/hajar-tech/application-task-manager.git",
+    githubUrl : "https://github.com/hajar-tech/application-meteo.git",
   },
     {  
-      name : 'pomodoro-timer',
+      name : 'gestion-construction',
       imageUrl : "images/Construction.jpg",
-      githubUrl : "https://github.com/hajar-tech/application-task-manager.git",
+      githubUrl : "https://github.com/hajar-tech/Gestion-Construction.git",
       },
       {  
-        name : 'pomodoro-timer',
+        name : 'salle-sport-app',
         imageUrl : "images/sportFlow.jpg",
-        githubUrl : "https://github.com/hajar-tech/application-task-manager.git",
+        githubUrl : "https://github.com/hajar-tech/SportFlow.git",
         },
       
   ];

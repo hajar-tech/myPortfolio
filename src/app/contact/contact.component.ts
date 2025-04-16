@@ -16,4 +16,16 @@ export class ContactComponent {
     
   });
 
+  onSubmit() {
+    console.log(this.cotactForm.value);
+    if (this.cotactForm.valid) {
+      alert('Form submitted successfully!');
+      this.cotactForm.reset();
+    }
+  else {
+      alert('Please fill out all required fields with the correct email format.');
+    }
+  }
+
+
 }

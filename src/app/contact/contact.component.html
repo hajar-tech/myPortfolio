@@ -36,7 +36,7 @@
                     </div>
                 </div>
 
-                <form  [formGroup]="cotactForm" action="https://fabform.io/f/xxxxx" method="post" class="p-6 flex flex-col justify-center">
+                <form  [formGroup]="cotactForm" (ngSubmit)="onSubmit()"  class="p-6 flex flex-col justify-center">
                     <div class="flex flex-col">
                         <label for="name" class="hidden">Full Name</label>
                         <input type="name" formControlName="name"  name="name" id="name" placeholder="Full Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-transparent  border border-gray-400 dark:border-gray-700 text-neutral-300 font-semibold focus:border-red-900 focus:outline-none">
