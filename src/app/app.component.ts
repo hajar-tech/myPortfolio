@@ -7,6 +7,7 @@ import { ContactComponent } from './contact/contact.component'; // Import the Co
 import { AboutComponent } from './about/about.component'; // Import the AboutComponent
 import { SkilsComponent } from './skils/skils.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { TestComponent } from './test/test.component';
 
 
 @Component({
